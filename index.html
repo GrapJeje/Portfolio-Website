@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/profile_picture_icon.png">
+    <title>GrapJeje - Home</title>
+</head>
+
+<body>
+    <nav class="wrapper-60 display-flex shadow background-gradient">
+        <a href="">
+            <p class="font-family-gillsans font-bold font-size-2">GrapJeje</p>
+        </a>
+    </nav>
+
+    <div class="wrapper-50">
+        <header class="display-grid center">
+            <div>
+                <figure>
+                    <img src="banner.png">
+                </figure>
+                <div class="profile-container">
+                    <div>
+                        <picture>
+                            <img src="img/profile_picture.png" alt="profile picture"
+                                class="rounded-full border-4 border-color-white profile_picture border-solid shadow">
+                        </picture>
+                        <p class="font-family-gillsans font-bold font-size-2 text-align-left profile_name">Jason van
+                            Loon
+                        </p>
+                        <p class="font-family-gillsans font-size-1 text-align-left profile-job">Developer in opleiding
+                        </p>
+                    </div>
+                    <div class="profile-links-dropdown">
+                        <span>
+                            <p
+                                class="profile-link-button font-family-arial font-bold font-size-1-5 background-gradient">
+                                Links</p>
+                        </span>
+                        <div class="profile-links-dropdown-content">
+                            <p class="font-family-arial font-bold font-size-2">Links</p>
+                            <div class="text-align-left font-family-arial font-size-1">
+                                <p class="profile-links-dropdown-content-item font-bold">Websites</p>
+                                <div>
+                                    <img src="img/github-icon.png" alt="Github Icon"
+                                        class="display-inline-block profile-links-dropdown-content-item">
+                                    <a href="https://github.com/GrapJeje"
+                                        class="display-inline-block profile-links-dropdown-content-item">
+                                        <p>Github</p>
+                                    </a>
+                                </div>
+                                <div>
+                                    <img src="img/gitlab-icon.png" alt="Gitlab Icon"
+                                        class="display-inline-block profile-links-dropdown-content-item">
+                                    <a href="https://gitlab.com/GrapJeje"
+                                        class="display-inline-block profile-links-dropdown-content-item">
+                                        <p>Gitlab</p>
+                                    </a>
+                                </div>
+                                <div>
+                                    <img src="img/profile_picture_icon.png" alt="GrapJeje Site Icon"
+                                        class="display-inline-block profile-links-dropdown-content-item">
+                                    <a href="" class="display-inline-block profile-links-dropdown-content-item">
+                                        <p>Portfolio Site</p>
+                                    </a>
+                                </div>
+                                <p class="profile-links-dropdown-content-item font-bold">Socials</p>
+                                <div>
+                                    <img src="img/linkedin-icon.png" alt="Linkedin Icon"
+                                        class="display-inline-block profile-links-dropdown-content-item">
+                                    <a href="https://www.linkedin.com/in/jason-van-loon-427882330/"
+                                        class="display-inline-block profile-links-dropdown-content-item">
+                                        <p>Linkedin</p>
+                                    </a>
+                                </div>
+                                <div id="discord">
+                                    <img src="img/discord-icon.png" alt="Discord Icon"
+                                        class="display-inline-block profile-links-dropdown-content-item">
+                                    <p class="display-inline-block profile-links-dropdown-content-item">Discord</p>
+                                    <div>
+                                        <h1 class="text-align-left font-family-arial font-size-1">@GrapJeje</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="display-flex center">
+            b
+            <a href="https://jhey.dev/">jheyDev</a>
+        </main>
+    </div>
+
+    <footer class="flex center">
+        <p id="header_year"></p>
+    </footer>
+
+    <script>
+        let year = new Date().getFullYear();
+        let beginYear = 2024;
+
+        if (year == beginYear) {
+            document.getElementById("header_year").innerText = `©Jason ${beginYear}`;
+        } else {
+            document.getElementById("header_year").innerText = `©Jason ${beginYear} - ${year}`;
+        }
+    </script>
+
+</body>
+
+</html>
