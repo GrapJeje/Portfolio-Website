@@ -121,7 +121,7 @@ figure {
 }
 
 #discord {
-    position: relative; /* Toegevoegd zodat de h1 element correct geplaatst wordt */
+    position: relative;
 }
 
 #discord h1 {
@@ -139,14 +139,66 @@ figure {
     display: block;
 }
 
+.profile-about-me {
+    margin-top: 2rem;
+    width: 60%;
+}
+
+.profile-about-me p {
+    padding-top: 1rem;
+}
+
+.profile-experience {
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 30%;
+}
+
+.profile-experience img {
+    width: 30px;
+}
+
+.profile-experience p {
+    padding-left: 1rem;
+}
+
+.profile-experience-lang {
+    padding: 1rem 0;
+}
+
+.profile-experience-sublang {
+    padding-bottom: 0.5rem;
+}
+
+.profile-experience-sublang p {
+    padding-top: 0.5rem;
+}
+
+.profile-experience-linkedin p {
+    padding-top: 0.2rem;
+}
+
+.profile-experience-linkedin img {
+    padding-top: 1rem;
+}
+
+.profile-experience-linkedin img:hover {
+    scale: 1.1;
+}
+
 /* Styles */
+
+.justify-content-space-between {
+    justify-content: space-between;
+    align-items: flex-start;
+}
 
 .background-gradient {
     background: linear-gradient(45deg, rgba(0, 40, 115, 0.974) -70%, rgb(84, 145, 243));
 }
 
 .shadow {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.27);
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.27));
 }
 
 .rounded-full {
